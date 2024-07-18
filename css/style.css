@@ -166,8 +166,52 @@ nav {
     order: 0;
     flex-grow: 0;
 }
+.boxtop div{
+    margin: 30px 0px;
+}
 
+.localisation {
+    background: rgb(241, 241, 241);
+    border-radius: 15px 0px 0px 15px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #F2F2F2;
+    
+}
+.fa-location-dot{
+    color: #000000;
+    position:absolute;
+    left: 15px;
+    bottom: 45px;
+}
 
+#ville {
+    position: absolute;
+    top: 108px;
+    left: 40px;
+    width: 185px;
+    height: 38px;
+    border:1px rgb(241, 241, 241) solid; 
+    color:#000000;
+    font-weight: bold;
+    text-align: center;
+}
+#BtnRecherche{
+    position: absolute;
+    top: 108px;
+    left: 230px;
+    height: 41px;
+    width: 140px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
+    color:white;
+    border: 1px solid #0065FC;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
