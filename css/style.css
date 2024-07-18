@@ -65,6 +65,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin: 250px;
 }
 
 .hebergements-and-populaires section {
@@ -154,6 +155,19 @@ nav {
     border-top: #0065FC 2px solid;
     color: #0065FC;
 }
+
+.boxtop{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    margin: 30px 50px;
+    gap: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
