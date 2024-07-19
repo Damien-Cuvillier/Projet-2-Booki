@@ -26,6 +26,7 @@
             </nav>
         </header>
         <main>
+            <!-- Barre de recherche -->
             <section class="boxtop">
                 <div>
                     <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
@@ -37,10 +38,24 @@
                         <form method="get" action="">
                         <input type="text" value="Marseille, France" id="ville">
                         <input type="submit" value="Rechercher" id="BtnRecherche">
+                        <!-- Icone loupe pour version mobile -->
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </form>
                 </div> 
             </section>
+            <!-- flexbox pour les filtres -->
+            <section class="filtres">
+                <div class="Btn-container"> <h2>Filtres</h2></div>
+                <button class="btn"><i class="fa-solid fa-money-bill-wave"></i>Economique</button> 
+                <button class="btnFamilial"><i class="fa-solid fa-person"></i>Familial</button>
+                <button class="btn"><i class="fa-solid fa-heart"></i>Romantique</button>
+                <button class="btn"><i class="fa-solid fa-fire"></i>Nos Pépites</button>
+            </section>
             
+            <div class="info">
+                <i class="fa-solid fa-circle-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
