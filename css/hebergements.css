@@ -4,15 +4,15 @@
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
-    display: flex;
-    justify-content: space-between;
-    margin: 250px;
+    /* Section group */
 
 /* Auto layout */
 display: flex;
 flex-direction: row;
-align-items: flex-start;
-padding-top: 200px;
+align-items: center;
+position: absolute;
+top: 500px;
+padding: 0px;
 gap: 40px;
 
 width: 1340px;
@@ -24,6 +24,7 @@ flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
+
 
 }
 
@@ -63,15 +64,59 @@ flex-grow: 0;
 
 /****** Populaires ***********/
 .populaires {
-    width: 32%;
+  
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+gap: 30px;
+
+width: 429px;
+height: 614px;
+
+
+background: #F2F2F2;
+border-radius: 15px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
     
 }
 
 .populaires-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ /* Titre */
+
+width: 369px;
+height: 26px;
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
 }
+
+.hebergement-titre{
+    width: 369px;
+    height: 26px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+    padding-left: 30px;
+}
+
 
 .populaires-cards .card {
     display: flex;
@@ -284,5 +329,5 @@ flex: none;
 order: 3;
 align-self: stretch;
 flex-grow: 0;
-
+padding-left: 30px;
 }

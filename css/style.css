@@ -22,10 +22,18 @@ body {
 }
 
 .main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
+    /* Header */
+
+width: 1440px;
+height: 79px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
 }
 
 a {
@@ -48,16 +56,29 @@ nav {
 
 }
 #logo {
-    position: absolute;
-    left: 100px;
-    top: 0px;
-    margin: 20px 50px;
-    gap: 10px;
-    width: 61.09px;
-    height: 19px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    /* Logo/Reservia */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px 50px;
+gap: 10px;
+
+position: absolute;
+left: 0px;
+top: 0px;
+/* Logo */
+
+width: 61.09px;
+height: 19px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
 
 }
 
