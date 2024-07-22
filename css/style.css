@@ -18,7 +18,7 @@
 body {
     display: flex;
     justify-content: center;
-    
+  
 }
 
 .main-container {
@@ -56,9 +56,7 @@ nav {
 
 }
 #logo {
-    /* Logo/Reservia */
-
-/* Auto layout */
+    
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -68,13 +66,13 @@ gap: 10px;
 position: absolute;
 left: 0px;
 top: 0px;
-/* Logo */
+
 
 width: 61.09px;
 height: 19px;
 
 
-/* Inside auto layout */
+
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -84,8 +82,6 @@ flex-grow: 0;
 
 .header-container {
    /* Menu */
-
-/* Auto layout */
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -105,8 +101,26 @@ top: 0px;
     color: #0065FC;
 }
 
+/* Footer */
+footer{
+}
+.footer-container{
+
+}
 
 
+.a-propos .nos-hebergements .assistance{
+ 
+
+}
+.footer-tittle{
+
+
+}
+.txt-footer{
+
+
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
