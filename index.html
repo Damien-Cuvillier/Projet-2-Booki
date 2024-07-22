@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/hebergements.css">
     <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/activites.css">
 </head>
 
 <body>
@@ -34,7 +35,7 @@
                     <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                     <p>en plein centre-ville ou en pleine nature</p>
                 </div> 
-                <section class="barreRecherche"> 
+                <article class="barreRecherche"> 
                      <div class="localisation">
                         <!-- Icone localisation Font Awesome -->
                         <i class="fa-solid fa-location-dot"></i>
@@ -45,8 +46,7 @@
                         <!-- Icone loupe pour version mobile -->
                         <i class="fa-solid fa-magnifying-glass"></i>
                         </form>
-                    
-                </section>
+                </article>
             </section>
             
             <!-- flexbox pour les filtres -->
@@ -63,6 +63,7 @@
             <i class="fa-solid fa-circle-info"></i>
             <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
+        <!-- Hébergements -->
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <div class="hebergement-titre">
@@ -193,7 +194,7 @@
                     <div class="more"><a href="#"><h3>Afficher plus</h3></a></div>      
                 </section>    
            
-
+                <!-- Hebergements populaires -->
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -260,6 +261,54 @@
                     </div>
                 </section>
             </div>
+            <!-- Activités -->
+            <section class="activites-container">
+                    <div class="activite-titre">
+                        <h3>Activités à Marseille</h3>
+                    </div>
+                <div class="activite">
+                    <a href="#">
+                        <article class="activite-cards">
+                            <img src="images/activites/reno-laithienne.jpg" alt="image de bateaux dans un port">
+                            <div class="contenu-card">
+                                <div class="card-desc">
+                                    <h3 class="titre-card">Vieux-Port</h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="activite-cards">
+                            <img src="images/activites/paul-hermann.jpg" alt="image d'un fort sur une côte maritime">
+                            <div class="contenu-card">
+                                <div class="card-desc">
+                                    <h3 class="titre-card">Fort de Pomègues</h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="activite-cards">
+                            <img src="images/activites/kilyan-sockalingum.jpg" alt="image de falaises et de cap sur une côte maritime">
+                            <div class="contenu-card">
+                                <div class="card-desc">
+                                    <h3 class="titre-card">Parc national des Calanques</h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="activite-cards">
+                            <img src="images/activites/florian-wehde.jpg" alt="image d'une église au sommet d'une colline, surplombant une ville">
+                            <div class="contenu-card">
+                                <div class="card-desc">
+                                    <h3 class="titre-card"><Notre-Dame-de-la-Garde></Notre-Dame-de-la-Garde></h3>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
         </main>
         <footer></footer>
     </div>
