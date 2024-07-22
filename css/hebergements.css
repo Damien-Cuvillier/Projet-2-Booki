@@ -1,0 +1,288 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+/****** Hebergements And Populaires ***********/
+.hebergements-and-populaires {
+    display: flex;
+    justify-content: space-between;
+    margin: 250px;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding-top: 200px;
+gap: 40px;
+
+width: 1340px;
+height: 614px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.hebergements-and-populaires section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+   
+}
+
+/****** Hebergements ***********/
+.hebergements {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    margin-right: 15px;
+    gap: 30px;
+    
+ 
+    width: 985px;
+    height: 614px;
+
+
+    background: #F2F2F2;
+    border-radius: 15px;
+
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+
+}
+
+/****** Populaires ***********/
+.populaires {
+    width: 32%;
+    
+}
+
+.populaires-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populaires-cards .card {
+    display: flex;
+    margin-top: 33px;
+}
+
+.populaires-cards img {
+    width: 33%;
+    height: 136px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.populaires-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.populaires-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.populaires-cards .card-subtitle {
+    margin: 0;
+}
+
+.populaires-cards .card-rating {
+    margin-bottom: 5px;
+}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+   
+}
+
+.card img {
+    object-fit: cover;
+
+}
+.card-title {
+    font-size: 16px;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+.neutral-star {
+    color: var(--main-bg-color)
+}
+.hebergements-cards1 img{
+    display:flex;
+    width: 100%;
+    height: 110px;
+    
+}
+.hebergements-cards1{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 811px;
+height: 207.25px;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.hebergements-cards2 img{
+    display:flex;
+    width: 100%;
+    height: 110px;
+    
+}
+.hebergements-cards2{
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 811px;
+height: 207.25px;
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+ 
+}
+
+.card1 img{
+    object-fit: cover;
+    
+
+box-sizing: border-box;
+
+width: 250.33px;
+height: 124px;
+
+background: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+
+border: 5px solid #FFFFFF;
+border-radius: 20px 20px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.card1{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-left:30px;
+gap: 4px;
+
+width: 250.33px;
+height: 207.25px;
+
+background: #FFFFFF;
+
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+.card1-content{
+  
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 15px;
+gap: 8px;
+
+width: 250.33px;
+height: 64.25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.card-tittle{
+   width: 220.33px;
+   height: 19px;
+  
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+   color: #000000;
+   flex: none;
+   order: 0;
+   align-self: stretch;
+   flex-grow: 0;
+
+}
+.card-subtitle{
+
+width: 220.33px;
+height: 16px;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.more{
+    /*afficher plus*/
+width: 811px;
+height: 21px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+}
