@@ -14,7 +14,6 @@ gap: 40px;
 width: 1340px;
 height: 614px;
 
-
 /* Inside auto layout */
 flex: none;
 order: 1;
@@ -66,7 +65,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 30px;
-gap: 30px;
+gap: 5px;
 
 width: 429px;
 height: 614px;
@@ -85,7 +84,7 @@ flex-grow: 0;
 
 .populaires-title {
  /* Titre */
-
+padding-left: 10px;
 width: 369px;
 height: 26px;
 
@@ -116,7 +115,7 @@ flex-grow: 0;
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 20px;
+    margin-top:40px;
     
 }
 
@@ -233,7 +232,8 @@ flex-grow: 0;
 display: flex;
 flex-direction: column;
 align-items: center;
-padding: 0px 0px 15px;
+
+padding: 0px 0px 5px;
 gap: 4px;
 
 width: 250.33px;
@@ -260,8 +260,9 @@ flex-grow: 1;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
-padding: 0px 15px;
-gap: 8px;
+
+padding: 0px 15px ;
+gap: 10px;
 
 width: 250.33px;
 height: 64.25px;
@@ -298,7 +299,7 @@ height: 16px;
 font-weight: 400;
 font-size: 14px;
 line-height: 16px;
-
+padding-top:10px;
 color: #000000;
 
 flex: none;
@@ -323,4 +324,40 @@ order: 3;
 align-self: stretch;
 flex-grow: 0;
 padding-left:10px;
+}
+@media screen and (max-width: 1024px) {
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+    .populaires {
+        width: 66%;
+        max-height: 252px;
+        
+    }
+    .populaires-title{
+      
+    }
+    .hebergements {
+        width: 66%;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+    
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+
+
 }
