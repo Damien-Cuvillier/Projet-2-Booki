@@ -107,7 +107,7 @@ top: 0px;
 
 footer{
    position:absolute;
-   bottom:-1000px;
+   bottom:-900px;
 
 }
 
@@ -118,10 +118,9 @@ flex-direction: row;
 align-items: flex-start;
 
 width: 1340px;
-height: 200px;
+height: 220px;
 background: #F2F2F2;
 
-/* Inside auto layout */
 flex: none;
 order: 3;
 align-self: stretch;
