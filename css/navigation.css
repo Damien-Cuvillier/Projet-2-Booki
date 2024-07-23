@@ -44,29 +44,6 @@ z-index: 0;
 
 
 }
-.barreRecherche{
-
-display: block;
-flex-direction: row;
-align-items: center;
-margin-left: 50px;
-gap: 24px;
-
-width: 377px;
-height: 49px;
-
-background: #FFFFFF;
-
-border: 1px solid #F2F2F2;
-border-radius: 15px;
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-z-index: 1;
-
-
-}
 
 .localisation {
 
@@ -119,8 +96,27 @@ flex-grow: 0;
 
 
 }
-#BtnRecherche{
+.barreRecherche{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    gap: 24px;
+    
+    width: 377px;
+    height: 49px;
+    
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+    }
 
+#BtnRecherche{
 
 display: flex;
 flex-direction: row;
@@ -143,10 +139,8 @@ border-radius: 0px 15px 15px 0px;
 flex: none;
 order: 2;
 flex-grow: 0;
-
-    
-    
 }
+
 .fa-magnifying-glass{
     position: absolute;
     top: 110px;

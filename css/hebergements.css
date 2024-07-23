@@ -4,19 +4,18 @@
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
-  
+ 
 display: flex;
 flex-direction: row;
 align-items: center;
-
-position: absolute;
-top: 450px;
-padding-left:50px;
-gap: 30px;
+padding: 50px;
+gap: 40px;
 
 width: 1340px;
 height: 614px;
 
+
+/* Inside auto layout */
 flex: none;
 order: 1;
 align-self: stretch;
