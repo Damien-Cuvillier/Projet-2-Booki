@@ -325,26 +325,37 @@ align-self: stretch;
 flex-grow: 0;
 padding-left:10px;
 }
+
+
 @media screen and (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
+        
     }
     .populaires {
         width: 66%;
         max-height: 252px;
+        max-width: 924px;;
+        
+    }
+    
+    .hebergements {
+        width: 66%;
         
     }
     .populaires-title{
-      
+        width: 864px;
+        max-width: 864px;
+        justify-content: space-between;
     }
-    .hebergements {
-        width: 66%;
+    .fa-chart-line{
+        padding-right: 50px;
     }
-
     .populaires-cards {
         display: flex;
         flex-direction: row;
         justify-content:space-between;
+        
     }
 
     .populaires-cards a {
