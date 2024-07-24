@@ -184,3 +184,42 @@
             overflow-wrap: break-word;
         }
     }
+
+/* Small devices (phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+    .activites-container{
+        height: auto;
+        width: auto;
+        
+    }
+    .activite{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+
+    }
+    .activite-titre{
+        height: auto;
+        width: auto;
+        margin: auto;
+        padding-left:50px;
+       
+    }
+    .activite-cards{
+        width: 315px;
+        height: 200px;
+    }
+    .activite-cards img {
+        width: 315px;
+        height: 141px;
+    }
+    .card-desc{
+        width: 315px;
+        height: 59px;
+    }
+    .titre-card{
+        width: auto;
+        height: auto;
+        padding-left:10px;
+    }
+}

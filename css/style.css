@@ -245,5 +245,7 @@ flex-grow: 0;
    footer{
     height:auto ;
     width: auto;
+    margin: auto;
+    margin-right:130px;
    }
 }
