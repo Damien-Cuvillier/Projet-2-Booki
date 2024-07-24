@@ -369,6 +369,41 @@ padding-left:10px;
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+}
 
-
+@media screen and (max-width: 767.98px) {
+    .hebergements-and-populaires{
+       flex-direction: column-reverse;
+       margin: auto;
+       width: 375px;
+       height: 2019.5px;
+       
+    }
+    .hebergements{
+        background-color: white;
+        margin: auto;
+        width: 375px;
+        height: 1435.5px;
+    }
+    .hebergements-cards1 {
+        flex-direction: column;
+        justify-items:center;
+       width: 335px;
+       height: 651.75px;
+       margin: auto;
+    }
+    
+    .hebergements-cards2{
+        flex-direction: column;
+        justify-items:center;
+        margin: auto;
+        width: 335px;
+       height: 651.75px;
+    }
+    .card1 img{
+        
+    }
+    .more{
+        margin: auto;
+    }
 }
