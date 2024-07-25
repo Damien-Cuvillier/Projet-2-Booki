@@ -2,9 +2,7 @@
 
 * {
     font-family: 'Raleway', sans-serif;
-    margin: 0;
-    max-width: 1440px;
-    
+    margin:0;
 }
 
 :root {
@@ -16,105 +14,59 @@
 .fa-solid {
     color: var(--main-color);
 }
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+.main-container{
+    max-width: 1440px;
+    width: 100%;
     margin:auto;
-    max-width: 1440px;
-    width: 100%;
 }
-
-.main-container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin: 0 auto;
-    width: 100%;
+body {
+    box-sizing: border-box;
+    margin: 0;
     max-width: 1440px;
-    height: 79px;
-    /* Inside auto layout */
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-
+    width: 100%;
 }
 
 a {
     color: inherit;
     text-decoration: none;
 }
-
+img{
+    object-fit: cover;
+}
 .section-title {
     margin: 0;
     font-size: 22px;
 }
-.btn-nav{
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-align-items: flex-end;
-padding: 0px;
-gap: 68px;
-
-width: 244px;
-height: 35px;
-
-flex: none;
-order: 0;
-flex-grow: 0;
-
+nav{
+    padding-bottom: 40px;;
 }
 
-header nav {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px;
     width: 1440px;
-    
+    height: 79px;
 }
 
-.logo-booki {
-padding: 30px 50px;
-gap: 10px;
-
-position: absolute;
-width: 161.09px;
-height: 79px;
-left: 0px;
-top: 0px;
+.btn-nav{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    gap: 50px;
+    width: 344px;
+    height: 35px;
 
 }
-
+.btn-nav a {
+    padding-top: 15px;
+}
 #logo{
-position: absolute;
-width: 61.09px;
-height: 19px;
-left: 50px;
-top: 30px;
+    width: 61.09px;
+    height: 19px;
 }
 
-.header-container {
-
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px 50px;
-gap: 68px;
-
-position: relative;
-width: 344px;
-height: 35px;
-left: 1000px;
-top: -65px;
-
-}
-
-.header-container a:hover {
+.btn-nav a:hover {
     border-top: #0065FC 2px solid;
     color: #0065FC;
 }
@@ -122,72 +74,42 @@ top: -65px;
 footer{
     width: 1340px;
     background-color: var(--main-bg-color);   
-    padding: 20px 0;
-    margin-top:50px;
-    margin: auto;
-    margin-left:20px;
-}
-
-.footer-container{
-
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 1340px;
-    margin: 0 auto;
-    padding: 0 20px;
 }
-
 .a-propos {
 
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 20px;
-gap: 15px;
-
-width: 446.67px;
-height: 163px;
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 1;
-
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 15px;
+    width: 446.67px;
+    height: 163px;
 
 }
 
 .footer-tittle{
-
-width: 200px;
-height: 21px;
-
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
-
-color: #000000;
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-
+    width: 200px;
+    height: 21px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+ 
 }
 
 .txt-footer{
-display:flex;
-flex-direction: column;
-align-content: space-between;
-width: 200px;
-height: 19px;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-
-color: #000000;
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    height: 19px;
+    gap:20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
 
 }
 
