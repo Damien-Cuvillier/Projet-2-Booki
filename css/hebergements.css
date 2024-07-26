@@ -6,6 +6,7 @@
     align-items: center;
     gap: 40px;
     max-width: 1340px;
+    min-width: 924px;
     width: 100%;
     height: 614px;
     margin: auto;
@@ -27,7 +28,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
-    width: 871px;
+    max-width:871px;
+    width: 100%;
     background: #F2F2F2;
     align-self: stretch;
 
@@ -40,7 +42,9 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    width: 429px;
+    max-width: 429px;
+    min-width: 277px;
+    width: 100%;
     background: #F2F2F2;
     align-self: stretch;
 
@@ -50,7 +54,8 @@
 .populaires-title {
 
     padding-left: 10px;
-    width: 369px;
+    max-width: 369px;
+    width: 100%;
     height: 26px;
     display: flex;
     flex-direction: row;
@@ -62,14 +67,11 @@
 }
 
 .hebergement-titre{
-    width: 811px;
+    max-width: 811px;
+    width: 100%;
     height: 26px;
     font-size: 16px;
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    align-self: flex-start;
-    flex-grow: 0;
+    align-self: flex-start;  
     padding-left:10px;
 }
 
@@ -138,7 +140,8 @@
     align-items: flex-start;
     padding: 10px;
     gap: 30px;
-    width: 811px;
+    max-width: 811px;
+    width: 100%;
     height: 207.25px;
 
 }
@@ -150,8 +153,8 @@
     align-items: flex-start;
     padding: 10px;
     gap: 30px;
-
-    width: 811px;
+    max-width: 811px;
+    width: 100%;
     height: 207.25px;
 
 }
@@ -159,6 +162,7 @@
 .card1 img{
     box-sizing: border-box;
     width: 250.33px;
+
     height: 124px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
@@ -170,7 +174,8 @@
     align-items: center;
     gap: 4px;
 
-    width: 250.33px;
+    max-width: 250.33px;
+    width: 100%;
     height: 207.25px;
 
     background: #FFFFFF;
@@ -185,16 +190,15 @@
     align-self: stretch;
     padding: 0px 15px ;
     gap: 10px;
-    width: 250.33px;
+    max-width: 250.33px;
+    width: 100%;
     height: 64.25px;
-
-
-
 
 }
 
 .card-tittle{
-   width: 220.33px;
+   max-width: 220.33px;
+   width: 100%;
    height: 19px;
    font-weight: 700;
    font-size: 16px;
@@ -204,7 +208,8 @@
 }
 .card-subtitle{
 
-    width: 220.33px;
+    max-width: 220.33px;
+    width: 100%;
     height: 16px;
     font-weight: 400;
     font-size: 14px;
@@ -216,7 +221,8 @@
 
 .more{
     /*afficher plus*/
-    width: 811px;
+    max-width: 811px;
+    width: 100%;
     height: 21px;
     font-weight: 700;
     font-size: 18px;

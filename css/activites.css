@@ -1,16 +1,17 @@
 
 .activites-container{
 
-    padding: 30px;
-    width: 1340px;
-    height: 559.02px;
+    padding: 30px 0 30px 0;
+    max-width: 1340px;
+    min-width: 924px;
+    width: 100%;
     margin: auto;
 }
     
 .activite-titre{
 
-    width: 1280px;
-    height: 30.02px;
+    max-width: 1280px;
+    width: 100%;
     padding:50px 50px 20px 30px;
     font-weight: 700;
     font-size: 22px;
@@ -24,9 +25,9 @@
     flex-direction: row;
     align-items: flex-start;
     padding-left: 20px;
-    width: 1280px;
-    height: 439px;
-    
+    max-width: 1280px;
+    width:100%;
+    gap: 20px;
 }
     
 .activite-cards{
@@ -36,8 +37,9 @@
     justify-content: flex-end;
     align-items: center;
     padding: 10px;
-    width: 297.5px;
-    height: 439px;
+    max-width: 297.5px;
+    width: 100%;
+    height: 100%;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
     
@@ -45,19 +47,26 @@
     
 .activite-cards img{
     
-    width: 297.5px;
+    max-width: 297.5px;
+    width:100%;
     height: 380px;
+    
     border-radius: 20px 20px 0px 0px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 
 }
-    
-    
+    /* Le problème de dimensionnement des images venait d'ici ajout de .activite a*/
+.activite a{
+    height: 100%;
+    width: 100%;
+    max-width: 297.5px;
+    max-height: 439px;
+}    
 .card-desc{
     
     padding: 20px 20px;
-    width: 260.5px;
-    height: 20px;
+    max-width: 297.5px;
+    width: 87%;
     background: #FFFFFF;
     border-radius: 0px 0px 20px 20px;
     
@@ -66,8 +75,8 @@
 
 .titre-card{
      
-    width: 259.5px;
-    height: 19px;
+    max-width: 259.5px;
+    width: 100%;
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -78,16 +87,19 @@
     @media screen and (max-width: 1024px) {
         .activites-container{
             margin-top:250px;
-            width: 924px;
+            max-width: 924px;
+            width: 100%;
             height: auto;
         }
         .activite-titre {
-            width: 924px;
+            max-width: 924px;
+            width: 100%;
             font-size: 20px;
             padding: 50px 0px 10px 40px;
         }
         .activite{
-            width: 864px;
+            max-width: 864px;
+            width: 100%;
             justify-content: center;
             align-self: center;
             gap: 10px;
