@@ -201,12 +201,23 @@ footer{
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
-   footer{
+    .main-container{
+        max-width: 375px;
+        max-height: 4058.02px;
+        margin: auto;
+       }
+    .main{
+    max-width: 375px;
+    max-height: 4058.02px;
+    margin: auto;
+   }
+   
+    footer{
     flex-direction: column;
     justify-content: center;
     max-width: 375px;
+    max-height: 461px;
     width:100%;
-    margin: auto;
     padding:10px;
    }
 
@@ -218,6 +229,7 @@ footer{
    .a-propos {
     width: 100%;
     max-width: 263.67px;
+    max-height: 123px;
     
     }
     .footer-tittle{
@@ -227,4 +239,6 @@ footer{
     .txt-footer{
         max-width: 239.2px;
     }
+
+
 }

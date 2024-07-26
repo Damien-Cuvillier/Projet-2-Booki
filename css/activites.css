@@ -149,38 +149,42 @@
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
     .activites-container{
-        height: auto;
-        width: auto;
-        margin: auto;
-    }
-    .activite{
-        height: auto;
-        width: auto;
-        flex-direction: column;
-
+        max-width: 375px;
+        max-height: 965.02px;
+        padding:30px;
+        margin-bottom: 650px;
     }
     .activite-titre{
-        height: auto;
-        width: auto;
+        max-width: 315px;
         margin: auto;
-        padding-left:50px;
+        text-align: center;
+    }
+    .activite{
+        max-width: 315px;
+        flex-direction: column;
+        margin: auto;
        
     }
+    
+    .activite a {
+        max-width: 315px;
+        max-height: 200px;
+    }
+    
     .activite-cards{
-        width: 315px;
-        height: 200px;
+        max-width: 315px;
+        max-height: 200px;
     }
     .activite-cards img {
-        width: 315px;
+        max-width: 315px;
         height: 141px;
     }
     .card-desc{
-        width: 315px;
-        height: 59px;
+        max-width: 315px;
+        max-height: 59px;
     }
     .titre-card{
-        width: auto;
-        height: auto;
-        padding-left:10px;
+        max-width: 277px;
+    
     }
 }

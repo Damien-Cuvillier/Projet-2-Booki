@@ -13,7 +13,7 @@
 }
 
 .hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
+    
     border-radius: 20px;
     padding: 20px;
     box-sizing: border-box;
@@ -401,36 +401,112 @@
 @media screen and (max-width: 767.98px) {
     .hebergements-and-populaires{
        flex-direction: column-reverse;
-       margin: auto;
-       width: 375px;
-       height: 2019.5px;
+       max-width: 375px;
+       max-height: 2019.5px;
        
     }
     .hebergements{
         background-color: white;
         margin: auto;
-        width: 375px;
-        height: 1435.5px;
+        max-width: 375px;
+        max-height: 1435.5px;
+        gap:5px;
+    }
+    .hebergements h2{
+        max-width: 335px;
+        max-height: 26px;
+        margin: auto;
     }
     .hebergements-cards1 {
         flex-direction: column;
         justify-items:center;
-       width: 335px;
-       height: 651.75px;
-       margin: auto;
+        max-width: 335px;
+        max-height: 651.75px;
+        margin: auto;
+        gap:15px;
     }
-    
+    .hebergements-cards1 a{
+        max-width: 335px;
+        max-height: 207.25px;
+    }
+    .card1 {
+        max-width: 335px;
+        max-height: 207.25px;
+    }
+    .card1 img{
+        max-width: 335px;
+        height: 124px;
+    }
     .hebergements-cards2{
         flex-direction: column;
         justify-items:center;
         margin: auto;
-        width: 335px;
-       height: 651.75px;
+        max-width: 335px;
+        max-height: 651.75px;
+        gap:15px;
     }
-    .card1 img{
-        
+    .hebergements-cards2 a{
+        max-width: 335px;
+        max-height: 207.25px;
     }
     .more{
         margin: auto;
+        max-width: 335px;
+        max-height: 21px;
     }
+    .populaires{
+        max-width: 375px;
+        max-height: 569px;
+        margin: auto;
+        
+    }
+    .populaires-title{
+        max-width: 335px;
+        max-height: 26px;
+    }
+    .section-title{
+        max-width: 300.31px;
+        max-height: 26px;
+    }
+    .fa-chart-line{
+        padding:20px;
+    }
+    .populaires-cards{
+        flex-direction: column;
+        max-width: 335px;
+    }
+    .populaires-cards a{
+        max-width: 335px;
+        max-height: 146px;
+    }
+    .card{
+        max-width: 335px;
+        max-height: 146px;
+    }
+    .card img{
+        max-width: 111.67px;
+        height: 146px;
+    }
+    .card-content{
+        max-width: 223.33px;
+        height: 136px;
+    }
+
+    .card-txt{  
+        max-width: 203.33px;
+        max-height: 85px;
+        gap:5px;
+      }
+
+    .card-title{
+        max-width: 203.33px;
+        max-height: 19px;
+    }
+
+    .card-subtitle{
+        max-width: 203.33px;
+        max-height: 16px;
+    }
+
+
 }
