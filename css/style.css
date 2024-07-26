@@ -167,7 +167,6 @@ footer{
     }
     footer {
         max-width: 924px;
-        min-width: 624px;
         width: 100%;
         padding-top: 20px;
         height: 100%;
@@ -202,25 +201,30 @@ footer{
 
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 767.98px) {
-   .footer-container{
+   footer{
     flex-direction: column;
     justify-content: center;
-     height:auto ;
-    width: auto;
-    
+    max-width: 375px;
+    width:100%;
+    margin: auto;
+    padding:10px;
    }
+
    header{
     flex-direction: column;
     align-items: center;
-}
-   footer{
-    flex-direction: column;
-        align-items: center;
-        padding: 10px;
-   }
+    }
+  
    .a-propos {
     width: 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
-}
+    max-width: 263.67px;
+    
+    }
+    .footer-tittle{
+        max-width: 104.65px;
+        width: 100%;
+    }
+    .txt-footer{
+        max-width: 239.2px;
+    }
 }
