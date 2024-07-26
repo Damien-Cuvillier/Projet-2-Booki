@@ -134,17 +134,42 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media screen and (max-width: 1024px) {
+    .header{
+        max-width: 924px;
+        max-height: 322px;
+        
+    }
+    
+    #logo{
+        margin-left:50px;
+        padding-bottom: 20px;
+    }
+    .header nav {
+        max-width: 344px;
+        max-height: 35px;
+        
+    }
+    .btn-nav a {
+        max-width: 244px;
+        max-height: 35px;
+        margin-right: 50px;
+    }
+    .btn-nav{
+        max-width: 244px;
+        max-height: 35px;
+        margin-bottom:40px;
+        
+    }
     .main-container {
         gap: 10px;
         margin: auto;
-        padding:20px;
+        
     }
     footer {
         max-width: 924px;
         min-width: 624px;
         width: 100%;
         padding-top: 20px;
-        margin:auto;
         height: 100%;
        
     }
