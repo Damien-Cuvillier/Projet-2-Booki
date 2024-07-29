@@ -159,18 +159,19 @@
         max-width: 375px;
         max-height: 965.02px;
         padding:30px;
-        margin-bottom: 650px;
+        margin-bottom: 50px; 
+        flex-direction: column;
+        
     }
     .activite-titre{
         max-width: 315px;
-        
         text-align: center;
     }
     .activite{
         max-width: 315px;
+        max-height: 845px ;
         flex-direction: column;
         
-       
     }
     
     .activite a {
