@@ -48,8 +48,8 @@
 
 #ville {
     opacity: 1;
-    width: 147px;
-    height: 21px;
+    width: 200px;
+    height: 49px;
     border:1px rgb(241, 241, 241) solid;
     padding:13px 22px 13px 22px;
     font-weight: 700;
@@ -161,8 +161,6 @@
 
 @media screen and (max-width: 1024px) {
     
-    
-    
     .info{
         max-width: 924px;
         width: 100%;
@@ -214,4 +212,68 @@
         max-height: 322px;
         margin: auto;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .boxtop{
+        max-width: 375px;
+        max-height: 432px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .filtres{
+        max-width: 335px;
+        max-height: 161px;
+        gap:20px;
+    }
+    .btns{
+        gap:10px;
+        flex-wrap: wrap;
+        max-width: 335px;
+        width: 100%;
+        max-height: 120px;
+    }
+    .btnFamilial{
+        margin:0;
+        max-width: 162.5px;
+        width: 100%;
+        text-align: center;
+    }
+    .btn{
+        margin:0;
+        max-width: 162.5px;
+        width: 100%;
+    }
+    .info{
+        max-width: 335px;
+        max-height: 38px;
+        
+    }
+    .txt{
+        display: none;
+    }
+    .loupe{
+        display: flex;
+        width: 49px;
+        height: 49px;
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+    .loupe input{
+        width: 57px;
+    }
+    .rechercher{
+        max-width: 335px;
+        max-height: 49px;
+        margin-top:30px;
+    }
+    
+    #ville {
+        max-width: 236px;
+        width: 100%;
+    }
+    .titre{
+        max-width: 335px;
+    }
+    
 }
