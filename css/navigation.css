@@ -215,7 +215,8 @@
 
 @media screen and (max-width: 768px) {
     .boxtop{
-        width: 375px;
+        max-width: 375px;
+        width: 120%;
         max-height: 432px;
         align-items: center;
         margin-bottom: 20px;

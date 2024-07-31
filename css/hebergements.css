@@ -424,8 +424,8 @@
 @media screen and (max-width: 768px) {
     .hebergements-and-populaires{
        flex-direction: column-reverse;
-       width: 375px;
-       
+       max-width: 375px;
+       width: 120%;
        max-height: 2019.5px;
        gap: 5px;
     }
@@ -433,12 +433,13 @@
         max-width: 375px;
         width: 100%;
         max-height: 2019.5px;
+        gap:15px;
     }
     .hebergements{
         background-color: white;
         width: 100%;
         max-width: 375px;
-        max-height: 1435.5px;
+        height: 1435.5px;
         gap:5px;
     }
     .hebergements h2{
@@ -485,8 +486,8 @@
     }
     .populaires{
         max-width: 375px;
-        max-height: 569px;
-        
+        height: 569px;
+        gap: 15px;
         
     }
     .populaires-title{
