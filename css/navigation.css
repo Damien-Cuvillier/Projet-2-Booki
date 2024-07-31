@@ -216,10 +216,9 @@
 @media screen and (max-width: 768px) {
     .boxtop{
         max-width: 375px;
-        width: 120%;
         max-height: 432px;
         align-items: center;
-        margin-bottom: 20px;
+        margin: 20px 0;
     }
     .filtres{
         max-width: 335px;
@@ -276,5 +275,7 @@
     .titre{
         max-width: 335px;
     }
-    
+    .fa-circle-info{
+        padding-right:10px;
+    }
 }

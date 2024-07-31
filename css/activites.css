@@ -153,9 +153,9 @@
 @media screen and (max-width: 768px) {
     .activites-container{
         max-width: 375px;
-        width: 120%;
+        width: 100%;
         max-height: 965.02px;
-        padding:0 30px 0 30px;
+        padding-left:20px;
         margin-top: 50px; 
         
     }
@@ -167,12 +167,12 @@
         max-width: 315px;
         max-height: 845px ;
         flex-direction: column;
-        
+        margin:15px;
     }
     
     .activite a {
         max-width: 315px;
-        width: 120%;
+        width: 100%;
         max-height: 200px;
     }
     
