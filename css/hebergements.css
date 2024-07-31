@@ -416,9 +416,6 @@
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    .fa-chart-line{
-        padding-right: 20px;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -470,7 +467,6 @@
     .hebergements-cards2{
         flex-direction: column;
         justify-items:center;
-        margin-top: 10px;
         max-width: 335px;
         max-height: 651.75px;
         gap:15px;
@@ -498,9 +494,6 @@
         max-width: 300.31px;
         max-height: 26px;
     }
-    .fa-chart-line{
-        padding:20px;
-    }
     .populaires-cards{
         flex-direction: column;
         max-width: 335px;
@@ -508,6 +501,9 @@
     .populaires-cards a{
         max-width: 335px;
         max-height: 146px;
+    }
+    .fa-chart-line{
+        padding:0;
     }
     .card{
         max-width: 335px;
@@ -521,11 +517,15 @@
         max-width: 223.33px;
         height: 136px;
     }
-
+    .card1-content{
+        max-width: 335px;
+        max-height: 64.25px;
+        padding: 0 15px 0 15px;
+    }
     .card-txt{  
         max-width: 203.33px;
         max-height: 85px;
-        gap:5px;
+        
       }
 
     .card-title{
@@ -536,7 +536,8 @@
     .card-subtitle{
         max-width: 203.33px;
         max-height: 16px;
+        padding-top:5px;
     }
-
+   
 
 }

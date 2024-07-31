@@ -136,19 +136,16 @@
         width: 100%;
         max-width: 193.5px;
         height:70px;
-        padding: 10px;
         box-sizing: border-box; 
             
     }
 
     .titre-card{
         max-width: 155px;
-        width: 100%;
         font-size: 14px;
         max-height: 38px;
         line-height: 18.78px;
-        text-align: center;
-        padding-top: 5px;
+        
     }
 }
 
@@ -196,6 +193,6 @@
     }
     .titre-card{
         max-width: 277px;
-    
+        text-align: left;
     }
 }

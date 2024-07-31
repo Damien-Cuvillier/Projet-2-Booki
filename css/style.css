@@ -228,11 +228,6 @@ footer{
     h3{
         font-size: 20px;
     }
-    body, h1, h2, h3, p, a {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
     body{
         max-width: 375px;
         width: 100%;
@@ -244,7 +239,7 @@ footer{
         max-width: 375px;
         width: 120%;
         max-height: 4058.02px;
-        padding:20px;
+        padding-top:20px;
    }
    
     footer{
@@ -255,23 +250,25 @@ footer{
         max-width: 375px;
         max-height: 461px;
         width:100%;
-        margin-left:50px;
+        margin:50px;
    }
     #logo{
         width: 61px;
         height: 19px;
-       
+        margin:0;
     }
 
    header{
         flex-direction: column;
         max-width: 375px;
         width: 120%;
+        gap:15px;
         max-height: 115px;
    }
 
     header nav {
-        width: 375px;
+        max-width: 375px;
+        width: 100%;
         max-height: 36px;
         border-bottom: 2px solid #f2f2f2;
         padding-bottom: 50px;
