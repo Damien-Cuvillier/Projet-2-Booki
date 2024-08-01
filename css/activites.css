@@ -82,7 +82,6 @@
     }
    
     .titre-card{
-        max-width: 155px;
         font-size: 14px;
     }
 }
@@ -90,47 +89,35 @@
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 768px) {
     .activites-container{
-        max-width: 375px;
-        width: 100%;
-        max-height: 965.02px;
-        padding-left:20px;
-        margin-top: 50px; 
-        
+        justify-content: center;
+        align-items: center;
     }
-    .activite-titre{
-        max-width: 315px;
-        
-    }
+
     .activite{
-        max-width: 315px;
-        max-height: 845px ;
+        justify-content: center;
+        align-items:center;
         flex-direction: column;
-        margin:15px;
+        
     }
     
     .activite a {
-        max-width: 315px;
-        width: 100%;
-        max-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
-    .activite-cards{
-        max-width: 315px;
-        width: 100%;
-        max-height: 200px;
-    }
     .activite-cards img {
-        max-width: 315px;
-        width: 120%;
         height: 141px;
     }
+
     .card-desc{
-        max-width: 315px;
-        width: 120%;
-        max-height: 59px;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
     }
+
     .titre-card{
-        max-width: 277px;
-        text-align: left;
+        width: 100%;
+        padding:10px;
     }
 }

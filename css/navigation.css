@@ -158,89 +158,76 @@
 @media screen and (max-width: 1024px) {
     .filtres h2 {
         font-size:18px;
-        padding-left:10px;
 
     }
     .filtres{
         flex-direction: column;
         align-items: flex-start;
     }
-
     .btn {
-        max-width: 167px;
         font-size: 16px;
         text-align: left;
+        width: 100%;
     }
     
     .btnFamilial{
-        max-width: 131px;
-        width: 100%;
+        width: 70%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .boxtop{
-        max-width: 375px;
-        max-height: 432px;
         align-items: center;
-        margin: 20px 0;
     }
     .filtres{
-        max-width: 335px;
-        max-height: 161px;
+        justify-content: center;
         gap:20px;
     }
+   
     .btns{
-        gap:10px;
+        
         flex-wrap: wrap;
-        max-width: 335px;
+        justify-content: center;
         width: 100%;
-        max-height: 120px;
     }
     .btnFamilial{
-        margin:0;
-        max-width: 162.5px;
-        width: 100%;
-        text-align: center;
+        width: 45%;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis; 
     }
     .btn{
-        margin:0;
-        max-width: 162.5px;
-        width: 100%;
+        width: 45%;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis; 
     }
-    .info{
-        max-width: 335px;
-        max-height: 38px;
-        
-    }
-    .txt{
+   
+    .txt input{
         display: none;
     }
-    .loupe{
+    .txt{
+       margin-left: -10px;
+    }
+    .fa-search{
         display: flex;
         width: 49px;
         height: 49px;
-        align-items: flex-start;
-        justify-content: flex-end;
-        padding-right: 10px;
-    }
-    .loupe input{
-        width: 57px;
+        border: 1px solid #0065FC;
+        background-color: #0065FC;
+        color: white;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        
     }
     .rechercher{
-        max-width: 335px;
-        max-height: 49px;
-        margin-top:30px;
+       align-items: center;
+       justify-content: center;
     }
     
     #ville {
-        max-width: 236px;
-        width: 100%;
+        width: 85%;
     }
-    .titre{
-        max-width: 335px;
-    }
-    .fa-info{
-        padding-right:10px;
-    }
+    
 }

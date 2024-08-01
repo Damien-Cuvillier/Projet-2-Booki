@@ -40,13 +40,9 @@
     align-self: stretch;
     justify-content: space-between;
 }
-.card {
-    margin-bottom: 30px;
-}
 
 .populaires-title {
     width: 100%;
-    height: 26px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -92,7 +88,6 @@
 }
 
 .populaires-cards a{
-    max-width: 369px;
     width: 100%;
 }
 .card {
@@ -100,7 +95,6 @@
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    max-width: 369px;
     width: 100%;
 }
 
@@ -159,12 +153,12 @@
 
 .hebergements-cards1 a{
     width: 100%;
-    max-width:250.33px;
+    height: 100%;
 }
 
 .hebergements-cards2 a{
-    width: 100%;
-    max-width:250.33px; 
+    width: 100%; 
+    height: 100%;
 }
 
 .card1 img{
@@ -194,7 +188,6 @@
     padding: 0px 10px ;
     gap: 5px;
     width: 100%;
-    max-height: 64.25px;
     height: 100%;
 }
 
@@ -234,14 +227,6 @@
         gap:10px;
     }
 
-    .hebergements-cards1 a{
-        max-width: 268px;  
-    }
-
-    .hebergements-cards2 a{
-        max-width: 268px;
-    }
-
     .populaires {
         padding:30px;
         gap:20px;
@@ -259,18 +244,12 @@
         max-height: 146px;
     }
 
-    .card-content{
-        max-height: 136px;
-        max-width:183.33px ; 
-    }
-
     .populaires-cards .card-tittle {
         font-size: 16px;
     }
 
     .card-tittle{
-        max-width: 163.33px;
-        width: 104%; 
+        width: 100%; 
     }
 
     .populaires-cards .card-subtitle {
@@ -281,124 +260,76 @@
 @media screen and (max-width: 768px) {
     .hebergements-and-populaires{
        flex-direction: column-reverse;
-       max-width: 375px;
        width: 100%;
-       max-height: 2019.5px;
        gap: 5px;
     }
+
     .hebergements-and-populaires section {
-        max-width: 375px;
         width: 100%;
-        max-height: 2019.5px;
         gap:15px;
     }
     .hebergements{
         background-color: white;
-        width: 100%;
-        max-width: 375px;
-        height: 1435.5px;
-        gap:5px;
+        justify-content: center;  
     }
-    .hebergements h2{
-        max-width: 335px;
-        max-height: 26px;
-        
-    }
+    
     .hebergements-cards1 {
         flex-direction: column;
         justify-items:center;
-        max-width: 335px;
-        max-height: 651.75px;
-        
         gap:15px;
     }
+
     .hebergements-cards1 a{
-        max-width: 335px;
-        max-height: 207.25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
-    .card1 {
-        max-width: 335px;
-        max-height: 207.25px;
-    }
-    .card1 img{
-        max-width: 335px;
-        height: 124px;
-    }
+
     .hebergements-cards2{
         flex-direction: column;
         justify-items:center;
-        max-width: 335px;
-        max-height: 651.75px;
         gap:15px;
     }
+
     .hebergements-cards2 a{
-        max-width: 335px;
-        max-height: 207.25px;
+        justify-content: center;
+        align-items: center;
+       
     }
+
     .more{
-        padding: 20px;
-        max-width: 335px;
-        max-height: 21px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; 
     }
-    .populaires{
-        max-width: 375px;
-        height: 569px;
-        gap: 15px;
-        
-    }
-    .populaires-title{
-        max-width: 335px;
-        max-height: 26px;
-    }
-    .section-title{
-        max-width: 300.31px;
-        max-height: 26px;
-    }
+
     .populaires-cards{
         flex-direction: column;
-        max-width: 335px;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
     }
+
     .populaires-cards a{
-        max-width: 335px;
-        max-height: 146px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
     }
+
     .fa-chart-line{
         padding:0;
     }
-    .card{
-        max-width: 335px;
-        max-height: 146px;
-    }
-    .card img{
-        max-width: 111.67px;
-        height: 136px;
-    }
-    .card-content{
-        max-width: 223.33px;
-        height: 136px;
-    }
     .card1-content{
-        max-width: 335px;
-        max-height: 64.25px;
         padding: 0 15px 0 15px;
-        gap:15px;
-    }
-    .card-txt{  
-        max-width: 203.33px;
-        max-height: 85px;
-        
-      }
-
-    .card-title{
-        max-width: 203.33px;
-        max-height: 19px;
+        justify-content: space-between;
     }
 
     .card-subtitle{
-        max-width: 203.33px;
-        max-height: 16px;
         padding-top:5px;
     }
-   
+    .card1 img{
+        height: 141px;
+    }
 
 }
