@@ -141,73 +141,40 @@
     flex-direction: row;
     align-items: center;
     gap:10px;
-    max-width: 1340px;
     width: 100%;
-    height: 24px;
 }
 
 .fa-info{
     border-radius: 100px;
-    padding:8px 13px;
-    border:2px solid #D9D9D9;
+    border:1px solid #D9D9D9;
     display: flex;
     justify-content: center;
     align-items: center;
     color:#0065FC;
+    height: 24px;
+    width: 24px;
 }
 
 @media screen and (max-width: 1024px) {
-    
-    .info{
-        max-width: 924px;
-        width: 100%;
-       
-    }
     .filtres h2 {
-        max-width: 54px;
-        width: 100%;
-        max-height: 21px;
         font-size:18px;
-        line-height: 21.13px;
         padding-left:10px;
 
     }
     .filtres{
         flex-direction: column;
         align-items: flex-start;
-        max-width: 668px;
-        max-height: 91px;
-        width: 100%;
-        height: 100%;
-        
     }
-    .btns{
-        flex-direction: row;
-    }
+
     .btn {
-        flex-direction: row;
         max-width: 167px;
         font-size: 16px;
         text-align: left;
-
     }
+    
     .btnFamilial{
         max-width: 131px;
         width: 100%;
-    }
-    .rechercher{
-        max-width: 377px;
-        max-height: 49px;
-
-    }
-    .titre{
-        max-width: 924px;
-        max-height: 53px;
-    }
-    .boxtop{
-        max-width: 924px;
-        max-height: 322px;
-        
     }
 }
 

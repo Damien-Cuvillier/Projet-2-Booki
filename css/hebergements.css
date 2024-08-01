@@ -192,7 +192,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 0px 10px ;
-    gap: 10px;
+    gap: 5px;
     width: 100%;
     max-height: 64.25px;
     height: 100%;
@@ -221,157 +221,58 @@
 @media screen and (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
-        max-width:924px;
-        width:100%;
-        max-height: 913.5px;
-        height: 100%;
-        margin:auto;
-        
+        gap: 50px;
     }
     .hebergements{
         max-width: 924px;
-        width: 100%;
-        max-height: 650.5px;
-        height: 100%;
-    }
-
-    .hebergements h2{
-        max-width: 864px;
-        width: 100%;
-        max-height: 26px;
-        height: 100%;
-        padding: 10px 0 0 10px;
     }
     .hebergements-cards1 {
-        max-width: 864px;
-        width: 100%;
-        max-height: 207.25px;
-        height: 100%;
-        
+        gap:10px;  
     }
+
     .hebergements-cards2 {
-        max-width: 864px;
-        width: 100%;
-        max-height: 207.25px;
-        height: 100%;
-        
+        gap:10px;
     }
+
     .hebergements-cards1 a{
-        max-width: 268px;
-        width: 100%;
-        max-height: 207.25px;
-        height: 100%;
-        
+        max-width: 268px;  
     }
+
     .hebergements-cards2 a{
         max-width: 268px;
-        width: 100%;
-        max-height: 207.25px;
-        height: 100%;
-        
     }
-    .card1 {
-        max-width: 268px;
-        width: 110%;
-        max-height: 207.25px;
-        height: 100%;
-    }
-    .card1 img{
-        max-width: 268px;
-        width: 100%;
-        max-height: 124px;
-        height: 100%;
-    }
-    .card1-content{
-        max-width: 268px;
-        width: 100%;
-        max-height: 64.25px;
-        height: 100%;
-    }
-    .card-title {
-        max-width: 238px;
-        width: 130%;
-        height: 100%;
-        max-height: 19px;
-    
-    }
-    .card-subtitle{
-        max-width: 163.33px;
-        width: 100%;
-        
-    }
-    .more {
-        max-width: 864px;
-        width: 100%;
-        height: 100%;
-        max-height: 21px;
-    }
+
     .populaires {
-        width: 100%;
-        height: 252px;
-        justify-content: flex-start;
+        padding:30px;
+        gap:20px;
     }
-    
-    .populaires-title{
-        max-width: 864px;
-        max-height: 26px;
-        height: 100%;
-        width: 100%;
-        justify-content: space-between;
-    }
-    
+
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        max-width: 864px;
+        justify-content: space-between;
         width: 100%;
-        gap:20px;
-        max-height: 146px;
-        height: 100%;
+        gap:10px;
     }
 
     .populaires-cards a {
-        width: 100%;
-        max-width: 274.67px;
         max-height: 146px;
-        height: 100%;
-        
     }
-    .card{
-        width: 100%;
-        max-width: 274.67px;
-        max-height: 146px;
-        
-    
-    }
-    .card img{
-        max-width: 91.56px;
-        width: 100%;
-        height: 136px;
-    }
+
     .card-content{
         max-height: 136px;
-        max-width:183.33px ;
-        
+        max-width:183.33px ; 
     }
-    .card-txt{
-        max-width: 163.33px;
-        width: 100%;
-        max-height: 85px;
-        height: 100%;
-    }
-    .hebergements-and-populaires section {
-        max-width: 924px;
-        max-height: 611.5px;
-    }
+
     .populaires-cards .card-tittle {
         font-size: 16px;
     }
+
     .card-tittle{
         max-width: 163.33px;
-        width: 104%;
-        
+        width: 104%; 
     }
+
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
