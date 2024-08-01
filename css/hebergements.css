@@ -4,65 +4,53 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 40px;
-    max-width: 1340px;
+    justify-content: space-between;
+    gap: 10px;
     width: 100%;
     height: 100%;
-    margin: auto;
 }
 
 .hebergements-and-populaires section {
-    
     border-radius: 20px;
-    padding: 20px;
     box-sizing: border-box;
-    
 }
 
 /****** Hebergements ***********/
 .hebergements {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    justify-content: space-between;
     max-width:871px;
     width: 100%;
+    padding: 30px;
     background: #F2F2F2;
     align-self: stretch;
-
+    gap:30px;
 }
 
 /****** Populaires ***********/
 .populaires {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    max-width: 429px;
-    
+    padding:30px;
+    gap:30px;
     background: #F2F2F2;
     align-self: stretch;
     justify-content: space-between;
-    
 }
 .card {
     margin-bottom: 30px;
 }
-.populaires-title {
 
-    padding-left: 10px;
-    max-width: 369px;
+.populaires-title {
     width: 100%;
     height: 26px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    align-self: stretch;
-
-
 }
 
 .hebergement-titre{
@@ -76,8 +64,6 @@
 
 .populaires-cards .card {
     display: flex;
-    
-    
 }
 
 .populaires-cards img {
@@ -99,10 +85,6 @@
 .populaires-cards .card-tittle {
     margin-top: 10px;
     margin-bottom: 4px;
-}
-
-.populaires-cards .card-subtitle {
-    margin: 0;
 }
 
 .populaires-cards .card-rating {
@@ -129,9 +111,6 @@
 .card-title {
     font-size: 16px;
     width: 100%;
-    max-width:226px ;
-    width: 100%;
-    max-height: 38px;
     font-weight: 700;
     line-height: 19px;
     color: #000000;
@@ -145,6 +124,7 @@
     line-height: 19px;
     color: #000000;
 }
+
 .euro {
     font-weight: 700;
 }
@@ -154,56 +134,45 @@
 }
 
 .hebergements-cards1{
-
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 10px;
-    gap: 30px;
-    max-width: 811px;
-    
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
     width: 100%;
-
 }
+
 .card-txt{
-    max-width: 226px;
     width: 100%;
-    max-height: 64.25px;
     height: 100%;
 }
 
 .hebergements-cards2{
-
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 10px;
-    gap: 30px;
-    max-width: 811px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
     width: 100%;
-    
     height: 100%;
 }
+
 .hebergements-cards1 a{
     width: 100%;
-    height: 100%;
     max-width:250.33px;
-    
 }
+
 .hebergements-cards2 a{
     width: 100%;
-    height: 100%;
-    max-width:250.33px;
-    
+    max-width:250.33px; 
 }
+
 .card1 img{
     box-sizing: border-box;
-    max-width: 250.33px;
     width: 100%;
     height: 124px;
     border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
-    
 }
 
 .card1{
@@ -211,40 +180,30 @@
     flex-direction: column;
     align-items: center;
     gap: 4px;
-    padding-bottom: 20px;
-    max-width: 250.33px;
+    padding-bottom: 10px;
     width: 100%;
-    height: 100%;
     background: #FFFFFF;
-
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
 }
+
 .card1-content{
- 
     display: flex;
     flex-direction: column;
-    align-self: stretch;
     justify-content: space-between;
     padding: 0px 10px ;
     gap: 10px;
-    max-width: 250.33px;
     width: 100%;
     max-height: 64.25px;
     height: 100%;
-
 }
 
 .card-subtitle{
-
-    max-width: 220.33px;
     width: 100%;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #000000;
-    max-height: 19px;
-
 }
 
 .more{
