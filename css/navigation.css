@@ -5,11 +5,6 @@
     gap: 35px;
     width: 100%;
     margin-bottom: 30px;
-    
-}
-
-.titre{
-    width: 100%;
 }
 
 .titre h1{
@@ -73,7 +68,7 @@
 }
 
 .fa-search{
-   display: none;
+    display: none;
 }
 
 .filtres{
@@ -99,7 +94,6 @@
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     order: 1;
-    width: 180px;
     height: 50px;
     font-weight: 700;
     font-size: 17px;
@@ -120,7 +114,6 @@
     border-radius: 25px;
     background-color: white;
     order: 1;
-    width: 150px;
     height: 50px;
     font-weight: 700;
     font-size: 17px;
@@ -158,12 +151,13 @@
 @media screen and (max-width: 1024px) {
     .filtres h2 {
         font-size:18px;
-
     }
+
     .filtres{
         flex-direction: column;
         align-items: flex-start;
     }
+
     .btn {
         font-size: 16px;
         text-align: left;
@@ -179,39 +173,47 @@
     .boxtop{
         align-items: center;
         padding:0 20px;
+        gap:20px;
     }
+
     .filtres{
         justify-content: center;
         gap:20px;
     }
    
     .btns{
-        
+        gap:10px;
         flex-wrap: wrap;
         justify-content: flex-start;
         width: 100%;
     }
+
     .btnFamilial{
-        width: 46%;
+        width: 44%;
         font-size: 14px;
         overflow: hidden;
         text-overflow: ellipsis; 
     }
+
     .btn{
-        width: 46%;
+        width: 44%;
         font-size: 14px;
         overflow: hidden;
         text-overflow: ellipsis; 
     }
+
     .fa-info{
         padding:10px;
     }
+
     .txt input{
         display: none;
     }
+
     .txt{
        margin-left: -10px;
     }
+
     .fa-search{
         display: flex;
         width: 49px;
@@ -222,8 +224,8 @@
         border-radius: 15px;
         align-items: center;
         justify-content: center;
-        
     }
+
     .rechercher{
        align-items: center;
        justify-content: center;
