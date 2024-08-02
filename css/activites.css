@@ -67,8 +67,6 @@
 }
 
 .titre-card{
-   
-    height: 38px;
     width: 100%;
     font-weight: 700;
     font-size: 16px;
@@ -108,16 +106,20 @@
     
     .activite-cards img {
         height: 141px;
+        width: 94%;
     }
 
     .card-desc{
        display: flex;
        justify-content: flex-start;
        align-items: center;
+       width: 94%;
     }
 
     .titre-card{
         width: 100%;
-        padding:10px;
+    }
+    .activite-titre{
+        width: 94%;
     }
 }

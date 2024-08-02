@@ -178,6 +178,7 @@
 @media screen and (max-width: 768px) {
     .boxtop{
         align-items: center;
+        padding:0 20px;
     }
     .filtres{
         justify-content: center;
@@ -187,22 +188,24 @@
     .btns{
         
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         width: 100%;
     }
     .btnFamilial{
-        width: 45%;
+        width: 46%;
         font-size: 14px;
         overflow: hidden;
         text-overflow: ellipsis; 
     }
     .btn{
-        width: 45%;
+        width: 46%;
         font-size: 14px;
         overflow: hidden;
         text-overflow: ellipsis; 
     }
-   
+    .fa-info{
+        padding:10px;
+    }
     .txt input{
         display: none;
     }

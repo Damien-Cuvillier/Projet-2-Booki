@@ -141,7 +141,7 @@ footer{
 /* Small devices (phones, less than 768px) */
 @media screen and (max-width: 768px) {
     .main-container{
-        margin:auto
+        padding:0;
     }
 
     h3{
