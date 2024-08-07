@@ -85,7 +85,7 @@ footer{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    padding:20px;
+    gap:30px;
 }
 
 .a-propos {
@@ -140,16 +140,17 @@ footer{
     .main-container{
         padding:0;
     }
-
+    h1, h2{
+        font-size: 22px;
+    }
     h3{
-        font-size: 20px;
+        font-size: 18px;
     }
    
     footer{
         flex-direction: column;
         justify-content:center;
-        align-items: center;
-        padding: 10px;
+        padding: 30px;
     }
 
     #logo{
@@ -183,7 +184,7 @@ footer{
     
     .a-propos {
         width: 100%;
-        padding: 10px;
+        padding: 0;
     }
 
     .footer-tittle{

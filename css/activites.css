@@ -20,7 +20,8 @@
     flex-direction: row;
     align-items: flex-start;
     width:100%;
-    gap: 30px;
+    max-width: 1280px;
+    gap: 15px;
     justify-content: space-between;
 }
     
@@ -47,6 +48,7 @@
 .activite a{
     height: 100%;
     width: 100%;
+    max-width: 297.5px;
 }    
 .card-desc{
     padding: 20px 19px;
@@ -72,7 +74,12 @@
     .activite-cards img{
         height:180px;     
     }
-   
+    .activite{
+        max-width: 864px;
+    }
+    .activite a{
+        max-width: 193.5px;
+    }
     .titre-card{
         font-size: 14px;
     }
@@ -96,6 +103,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        max-width: inherit;
     }
     
     .activite-cards img {
