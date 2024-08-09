@@ -7,14 +7,6 @@
     gap:30px;
 }
     
-.activite-titre{
-    width: 100%;
-    font-weight: 700;
-    line-height: 26px;
-    color: #000000;
-
-}
-    
 .activite{
     display: flex;
     flex-direction: row;
@@ -24,7 +16,12 @@
     gap: 15px;
     justify-content: space-between;
 }
-    
+.activite a{
+    height: 100%;
+    width: 100%;
+    max-width: 297.5px;
+}    
+
 .activite-cards{
     display: flex;
     flex-direction: column;
@@ -44,12 +41,7 @@
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 
 }
-    /* Le problème de dimensionnement des images venait d'ici ajout de .activite a */
-.activite a{
-    height: 100%;
-    width: 100%;
-    max-width: 297.5px;
-}    
+
 .card-desc{
     padding: 20px 19px;
     width: 100%;
@@ -64,7 +56,6 @@
 
 .titre-card{
     width: 100%;
-    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     color: #000000;
