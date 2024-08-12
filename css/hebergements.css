@@ -1,7 +1,6 @@
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
@@ -16,7 +15,6 @@
 .hebergements {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: space-between;
     width: 67%;
     max-width: 871px;
@@ -28,7 +26,6 @@
 
 .hebergements-cards1{
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 10px;
     justify-content: space-between;
@@ -60,7 +57,6 @@
 .card1-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 0px 10px ;
     gap: 2px;
     width: 100%;
@@ -82,7 +78,6 @@
 
 .hebergements-cards2{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
@@ -205,12 +200,12 @@
 
     .hebergements-cards1 { 
         max-width: inherit;
-        
+        gap:15px;
     }
 
     .hebergements-cards2 {
-        
         max-width: inherit;
+        gap:15px;
     }
 
     .populaires {
@@ -249,15 +244,33 @@
 
 @media screen and (max-width: 768px) {
     .hebergements-and-populaires{
-       flex-direction: column-reverse;
-    }
+        flex-direction: column-reverse;
+     }
+ 
+     .hebergements-and-populaires section {
+         border-radius: 0px;
+         gap:15px;
+         padding:30px 20px 30px 20px;
+     }
 
-    .hebergements-and-populaires section {
-        border-radius: 0px;
+    .populaires-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap:15px;
-        padding:20px;
     }
 
+    .populaires-cards a{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       max-width: inherit;
+    }
+
+    .fa-chart-line{
+        padding:0;
+    }
+    
     .hebergements{
         background-color: white;
         justify-content: center;  
@@ -291,24 +304,6 @@
         display: flex;
         justify-content: flex-start;
         align-items: center; 
-    }
-
-    .populaires-cards{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap:15px;
-    }
-
-    .populaires-cards a{
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       max-width: inherit;
-    }
-
-    .fa-chart-line{
-        padding:0;
     }
 
     .card1 img{

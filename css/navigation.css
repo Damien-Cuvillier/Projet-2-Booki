@@ -71,7 +71,6 @@
 
 .filtres{
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap: 15px;
     width: 100%;
@@ -79,7 +78,6 @@
 
 .btns{
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
@@ -105,7 +103,6 @@
 
 .info{
     display: flex;
-    flex-direction: row;
     align-items: center;
     gap:10px;
     width: 100%;
@@ -134,7 +131,6 @@
 
     .btn {
         font-size: 16px;
-        text-align: left;
     }
     
 }
